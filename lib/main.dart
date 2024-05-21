@@ -25,7 +25,6 @@ class _MyAppState extends State<MyApp> {
       routes: {
         '/start':(context)=> Screen1(),
         '/login':(context)=> Screen2(),
-        durga
       },
     );
   }
