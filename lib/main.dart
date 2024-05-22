@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'Screen/Screen1.dart';
 import 'Screen/Screen2.dart';
+import 'Screen/Screen3.dart';
 
 
 void main()
@@ -21,10 +22,11 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: '/start',
+      initialRoute: '/screen1',
       routes: {
-        '/start':(context)=> Screen1(),
-        '/login':(context)=> Screen2(),
+        '/screen1':(context)=> Screen1(),
+        '/screen2':(context)=> Screen2(),
+        '/screen3':(context)=> Screen3(),
       },
     );
   }
